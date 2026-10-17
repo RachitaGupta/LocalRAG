@@ -1,0 +1,18 @@
+# Extraction
+pymupdf>=1.24          # PDF text + page rendering for OCR
+python-docx>=1.1       # .docx
+python-pptx>=0.6.23    # .pptx
+pandas>=2.0            # .xlsx / .xls / .csv
+openpyxl>=3.1          # Excel engine for pandas
+xlrd>=2.0              # legacy .xls
+Pillow>=10.0           # images
+
+# OCR (also needs the Tesseract binary installed on your OS - see README)
+pytesseract>=0.3.10
+
+# Embeddings + vector store
+sentence-transformers>=3.0
+chromadb>=0.5
+
+# Optional: LLM answers via local Ollama
+requests>=2.31
